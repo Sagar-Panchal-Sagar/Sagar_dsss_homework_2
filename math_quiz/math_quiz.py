@@ -1,14 +1,17 @@
 import random                                # Importing the package random
 
 
-def Rand_int_generator(min, max):            # Defining a function which returns a random integer between 1 and 20
+def Rand_int_generator(min, max):            # Defining a function which returns a random integer between min and max
     """
-    Random integer.
+    Generates a Random integer.
     """
     return random.randint(min, max)
 
 
 def Rand_operator_generator():                # Defining a function which returns a random choice of operators i.e. '+', '-', '*'
+    """
+    Generates a Random operator.
+    """
     return random.choice(['+', '-', '*'])
 
 
