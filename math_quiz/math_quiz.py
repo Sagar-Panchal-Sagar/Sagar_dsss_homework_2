@@ -2,7 +2,7 @@ import random                                # Importing the package random
 
 
 def Rand_int_generator(min, max):            # Defining a function which returns a random integer between min and max
-    """ 
+    """
     Generates a Random integer.
     """
     return random.randint(min, max)
